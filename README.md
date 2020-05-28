@@ -18,7 +18,7 @@ while that of the "/signup_submit" route is
           "email":email
         }
 
-7. Data would be posted to the "/save" route in form of JSON data which would be an array of objects. It should be saved against the user logged in.
+7. Data would be posted to the "/save" route in form of JSON data which would be an array of objects. It should be saved against the user logged in. You do not need to know the format of the data. just save as is against a logged in user. You may check the app.js file though if curious.
 8. if the "/clear" route is accessed, stored data should be deleted.
 9. If the "/data" route is accessed, the data stored against the user should be sent as it was stored.
 10. You may use any form of persistent storage you want.
