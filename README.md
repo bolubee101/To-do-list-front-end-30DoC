@@ -5,7 +5,7 @@ Ensure you maintain the relative file structure of the provided files to prevent
 
 fork this repo, clone to your local machine then create a backend api to satisfy the given features
 
-1. Go to the app.js file and add the endpoint to where your server is running. Do not end with "/". It is the first line in the app.js file
+1. Go to the app.js, signup.js and login.js file and add the endpoint to where your server is running. Do not end with "/". It is the first line in the each of the files
 2. When the "/login" route is accessed, serve the login page.
 3. When the "/signup" route is accessed, serve the signup page.
 4. The login form data would be submitted to the "/login_submit" route via POST and a session would be created. After a session is created, the user would be redirected to the "/todo" route which serves the index.html. If no session exists and the "/todo" route is accessed, the user would be redirected to the "/login" route. If the login details are invalid, resend the login form.
