@@ -1,6 +1,7 @@
 # To-do-list-front-end
 
-This task was made with love from me to you all. Enjoy
+This task was made with love from me to you all. It was built around [CodeExplainedRepo's]("github.com/CodeExplainedRepo/To-Do-List") by adding login and signup forms and taking away local storage. Enjoy
+
 Ensure you maintain the relative file structure of the provided files to prevent unnecessary tear.
 
 fork this repo, clone to your local machine then create a backend api to satisfy the given features
